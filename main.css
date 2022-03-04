@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #000;
+}
+
+div.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+div.alert {
+    width: 200px;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+div.alert p {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+}
